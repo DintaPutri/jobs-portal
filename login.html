@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+	<title>Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="assets/login/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-7 col-lg-5">
+					<div class="wrap">
+						<div class="login-wrap p-4 p-md-5">
+							<div class="d-flex">
+								<div class="w-100">
+									<h3 class="mb-4">Sign In</h3>
+								</div>
+							</div>
+							<form id="aksi" action="" class="signin-form">
+								<div class="form-group mt-3">
+									<input id="username" type="text" class="form-control" required>
+									<label class="form-control-placeholder" for="username">Username</label>
+								</div>
+								<div class="form-group">
+									<input id="password-field" type="password" class="form-control" required>
+									<label class="form-control-placeholder" for="password">Password</label>
+									<span toggle="#password-field"
+										class="fa fa-fw fa-eye field-icon toggle-password"></span>
+								</div>
+								<div class="form-group">
+									<button onclick="changeAction()" class="form-control btn btn-primary rounded submit px-3">Sign
+										In</button>
+								</div>
+								<div class="form-group d-md-flex">
+									<div class="w-50 text-left">
+										<label  class="checkbox-wrap checkbox-primary mb-0">Remember Me
+											<input type="checkbox" checked>
+											<span class="checkmark"></span>
+										</label>
+									</div>
+									<div class="w-50 text-md-right">
+										<a style="color: rgba(0, 0, 0, 0.281);" onMouseOver="this.style.color='#fb246a'"
+										onMouseOut="this.style.color='rgba(0, 0, 0, 0.281)'" href="#">Forgot Password</a>
+									</div>
+								</div>
+							</form>
+							<p class="text-center">Not a member? <a style="color: rgba(0, 0, 0, 0.281);" onMouseOver="this.style.color='#fb246a'"
+								onMouseOut="this.style.color='rgba(0, 0, 0, 0.281)'" href="/job/Register.html">Sign Up</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="assets/login/js/jquery.min.js"></script>
+	<script src="assets/login/js/popper.js"></script>
+	<script src="assets/login/js/bootstrap.min.js"></script>
+	<script src="assets/login/js/main.js"></script>
+	<script src="assets/login/js/login.js"></script>
+
+</body>
+
+</html>
